@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/deletenotes"
+        android:icon="@android:drawable/ic_delete"
+        android:onClick="delete"
+        android:title="delete"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/showmap"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:onClick="showmap"
+        android:title="showmap"
+        app:showAsAction="ifRoom|withText" />
+
+
+
+</menu>
